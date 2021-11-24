@@ -48,19 +48,21 @@ a {
 
 .hero-main {
     display: flex;
+    justify-content: space-between;
     max-width: 60vw;
     margin: 100px auto;
 }
 
-.main-left,
+/* .main-left,
 .main-right {
     flex: 1;
-}
+} */
 
 .main-left {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 45%;
 }
 
 .main-left p {
@@ -95,6 +97,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     background-color: #696972;
+    width: 45%;
 }
 
 .main-right p {
