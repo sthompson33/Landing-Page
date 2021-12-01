@@ -160,11 +160,19 @@ button:hover {
 
 .quote-section {
     display: flex;
+    justify-content: center;
+    background-color: var(--gray);
+    height: 450px;
+}
+
+.quote-container {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     text-align: left;
-    background-color: var(--gray);
-    padding: 150px 475px;
+    max-width: 46vw;
 }
 
 .quote {
@@ -178,6 +186,59 @@ button:hover {
     font-size: 24px;
     font-weight: 600;
     align-self: flex-end;
-    padding-right: 40px;
+    padding-right: 45px;
 }
 
+/*Sign Up Section*/
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+}
+
+.action-box {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    margin: 0 auto;
+    background-color: var(--blue);
+    padding: 50px 125px;
+    border-radius: 15px;
+}
+
+.action-header {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.action-secondary {
+    color: var(--white);
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-box button {
+    border: 2px solid var(--white);
+    align-self: flex-end;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    padding: 30px 0;
+    gap: 10px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
