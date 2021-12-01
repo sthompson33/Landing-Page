@@ -1,4 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    src: url('/fonts/Roboto-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 900;
+    src: url(/fonts/Roboto-Bold.ttf);
+}
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -16,7 +35,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto';  
 }
 
 .hero-section,
@@ -60,14 +79,16 @@ a {
     width: 47%;
 }
 
-.main-left p {
+.hero-secondary {
     font-size: 18px;
     color: var(--gray);
 }
 
-h1 {
+.hero-title {
     font-size: 48px;
     color: var(--white);
+    font-style: bold;
+    font-weight: 900;
 }
 
 button {
@@ -97,7 +118,6 @@ button:hover {
 
 .main-right p {
     color: var(--white);
-    font-weight: bold;
 }
 
 /*Info Section*/
@@ -134,7 +154,6 @@ button:hover {
 
 .box p {
     margin: 10px;
-    
 }
 
 /*Quote Section*/
